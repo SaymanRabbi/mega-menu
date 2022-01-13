@@ -37,3 +37,11 @@ nav>ul>li:hover>.dropdown.mega-dropdown{
 .mega-dropdown a {
     color: indigo;
 }
+nav>ul>li:hover>.dropdown.something{
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 40px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
